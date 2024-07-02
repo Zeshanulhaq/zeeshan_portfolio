@@ -58,16 +58,11 @@ const Header = () => {
         </div>
       </motion.div>
       <motion.div
-        whileInView={{ opacity: [0, 1] }}
+        // whileInView={{ opacity: [0, 1] }}
         transition={{ duration: 0.5, delay: 0.5 }}
         className="app__header-img"
       >
-        <Image
-          src={"/zeeshan2.png"}
-          fill={true}
-          priority={true}
-          alt="profile-bg"
-        />
+        <Image src={"/zee1.png"} fill={true} priority={true} alt="profile-bg" />
         <motion.img
           whileInView={{ scale: [0, 1] }}
           transition={{ duration: 1, ease: "easeInOut" }}
