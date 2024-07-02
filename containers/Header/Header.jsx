@@ -53,7 +53,7 @@ const Header = () => {
               height={40}
               className="mx-[0.7rem]"
             />
-            <p className="text-[0.8rem] text-white">ahtasham1802@gmail.com</p>
+            <p className="text-[0.8rem] text-white">zeshanulhaq655@gmail.com</p>
           </Link>
         </div>
       </motion.div>
@@ -63,7 +63,7 @@ const Header = () => {
         className="app__header-img"
       >
         <Image
-          src={"/profile.png"}
+          src={"/zeeshan2.png"}
           fill={true}
           priority={true}
           alt="profile-bg"
